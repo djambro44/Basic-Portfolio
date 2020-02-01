@@ -1,15 +1,29 @@
+.header {
+    background-color: #ffffff;
+    margin-bottom: #777777 2px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     width: 960px;
-    border: grey 1px solid;
-    background-image: url(assets/images/concrete_seamless.png);
-    background-position: 100%;
-    background-size: auto;
+    background: url("../images/concrete_seamless.png");
     padding: 20px;
     position: relative;
-    left: 220px;
-    
+    left: 220px; 
+}
+
+.main {
+    background-color: #ffffff;
+    border: #777777 100px;
+    padding: 20px;
+
+}
+
+.form {
+    background-color: #ffffff;
+    border: #777777 100px;
+    padding: 20px;
 }
 
 h1
@@ -27,8 +41,11 @@ h1
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 25px;
     border-color: #cccccc;
-    border-top: 2px solid #777777;
+    border-bottom: 2px solid #777777;
     
 }
 
@@ -51,7 +68,8 @@ img {
     overflow: hidden;
     float: right;
     position: relative;
-    bottom: 50px;
+    bottom: 80px;
+    width 100%;
     color: #777777;
 }
 
@@ -92,3 +110,32 @@ a:visited {
         text-align: center;
         z-index: 11;
 }
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
